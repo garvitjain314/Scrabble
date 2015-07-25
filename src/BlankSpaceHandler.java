@@ -9,9 +9,11 @@ public class BlankSpaceHandler {
 
     ArrayList<String> spaceReplacedRack;
 
-    public BlankSpaceHandler(){
+    public BlankSpaceHandler() {
         spaceReplacedRack = new ArrayList<String>();
     }
 
-    public ArrayList<String> getBlankReplacedRacks(String )
+    public ArrayList<String> getBlankReplacedRacks(String ) {
+    	spaceReplacedRack = new ArrayList<String>();
+    }
 }
